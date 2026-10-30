@@ -62,6 +62,13 @@
       "name": "Directory of Open Access Books",
       "url": "https://www.doabooks.org/doab?func=search&query={q}"
     },
+    { "name": "OpenStax (free textbooks)", "url": "https://openstax.org/search?query={q}" },
+{ "name": "LibreTexts", "url": "https://commons.libretexts.org/search?query={q}" },
+{ "name": "OER Commons", "url": "https://oercommons.org/search?f.search={q}" },
+{ "name": "Internet Archive (full text)", "url": "https://archive.org/search?query={q}&sin=TXT" },
+{ "name": "HathiTrust (full view only)", "url": "https://babel.hathitrust.org/cgi/ls?q1={q}&a=srchls&anyall1=phrase&lmt=ft" },
+{ "name": "Library copies (WorldCat)", "url": "https://search.worldcat.org/search?q={q}" },
+{ "name": "Library ebooks (Libby/OverDrive)", "url": "https://www.overdrive.com/search?q={q}" }
     {
       "name": "LibriVox (free audiobooks)",
       "url": "https://librivox.org/search?primary_key=0&search_category=title&search_page=1&search_form=get_results&search_order=alpha&project_type=both&q={q}"
