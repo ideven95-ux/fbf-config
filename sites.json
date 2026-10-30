@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "paid": [
+    {
+      "id": "textbooksforlife",
+      "name": "Textbooks For Life",
+      "note": "Requested PDFs for $20 or less",
+      "url": "https://textbooks.dad/?s={q}&post_type=product",
+      "count": true
+    },
+    {
+      "id": "tofbooks",
+      "name": "ToF Books",
+      "note": "Any textbook sourced for $23, delivered by email within 24 hours",
+      "url": "https://tofbooks.org/?s={q}&post_type=product",
+      "count": true
+    },
+    {
+      "id": "rebooks",
+      "name": "ReBooks.UK",
+      "note": "Pre-owned and affordable textbooks",
+      "url": "https://rebooks.uk/?s={q}&post_type=product",
+      "count": true
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "note": "Check used listings too — often the cheapest copy",
+      "url": "https://www.amazon.com/s?k={q}"
+    },
+    {
+      "id": "vitalsource",
+      "name": "VitalSource",
+      "note": "eTextbook rentals and purchases — often cheaper than print",
+      "url": "https://www.vitalsource.com/search?q={q}"
+    },
+    {
+      "id": "bookshop",
+      "name": "Bookshop.org",
+      "note": "Supports local bookshops",
+      "url": "https://bookshop.org/search?keywords={q}"
+    },
+    {
+      "id": "googlebooks",
+      "name": "Google Books",
+      "note": "Compare ebook prices across sellers",
+      "url": "https://www.google.com/search?tbm=bks&q={q}"
+    }
+  ],
+  "moreFree": [
+    {
+      "name": "Custom Book Search (Google)",
+      "url": "https://cse.google.com/cse?cx=b1e7d762449d340d5#gsc.tab=0&gsc.q={q}&gsc.sort=date"
+    },
+    {
+      "name": "Standard Ebooks",
+      "url": "https://standardebooks.org/ebooks?query={q}"
+    },
+    {
+      "name": "Wikisource",
+      "url": "https://en.wikisource.org/w/index.php?search={q}"
+    },
+    {
+      "name": "Directory of Open Access Books",
+      "url": "https://www.doabooks.org/doab?func=search&query={q}"
+    },
+    {
+      "name": "LibriVox (free audiobooks)",
+      "url": "https://librivox.org/search?primary_key=0&search_category=title&search_page=1&search_form=get_results&search_order=alpha&project_type=both&q={q}"
+    }
+  ]
+}
