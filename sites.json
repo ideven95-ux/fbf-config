@@ -22,13 +22,13 @@
       "url": "https://rebooks.uk/?s={q}&post_type=product",
       "count": true
     },
-    {
-      "id": "amazon",
-      "name": "Amazon",
-      "note": "Check used listings too — often the cheapest copy",
-      "url": "https://www.amazon.com/s?k={q}"
+     {
+      "id": "customgooglesearch"
+       "name": "Custom Book Search (Google)",
+       "note": "A custom Google search engine by Volunteers"
+      "url": "https://cse.google.com/cse?cx=b1e7d762449d340d5#gsc.tab=0&gsc.q={q}&gsc.sort=date"
     },
-    {
+      {
       "id": "vitalsource",
       "name": "VitalSource",
       "note": "eTextbook rentals and purchases — often cheaper than print",
@@ -48,10 +48,7 @@
     }
   ],
   "moreFree": [
-    {
-      "name": "Custom Book Search (Google)",
-      "url": "https://cse.google.com/cse?cx=b1e7d762449d340d5#gsc.tab=0&gsc.q={q}&gsc.sort=date"
-    },
+   
     {
       "name": "Standard Ebooks",
       "url": "https://standardebooks.org/ebooks?query={q}"
